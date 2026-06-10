@@ -1,4 +1,4 @@
-# SLSP: Similarity Preserving Unsupervised Feature Selection based on Sparse Learning
+# SLSP: Sparse Learning and Similarity Preserving
 
 [![IEEE Paper](https://img.shields.io/badge/IEEE-IST%202020-blue)](https://ieeexplore.ieee.org/document/9345884)
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FIST50524.2020.9345884-green)](https://doi.org/10.1109/IST50524.2020.9345884)
