@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "SLSP: Sparse Learning and Similarity Preserving"
+message: "If you use this software, please cite the associated IEEE paper."
+type: software
+
+authors:
+
+* family-names: "Zare"
+  given-names: "Hadi"
+
+* family-names: "Parsa"
+  given-names: "Mohsen Ghassemi"
+
+* family-names: "Ghatee"
+  given-names: "Mehdi"
+
+* family-names: "Alizadeh"
+  given-names: "Sasan H."
+
+repository-code: "https://github.com/mohsengh/SLSP"
+
+preferred-citation:
+type: conference-paper
+
+conference:
+name: "2020 10th International Symposium on Telecommunications (IST)"
+
+year: 2020
+
+doi: "10.1109/IST50524.2020.9345884"
