@@ -1,0 +1,214 @@
+# SLSP: Sparse Learning and Similarity Preserving
+
+[![Paper](https://img.shields.io/badge/IEEE-IST%202020-blue)](https://doi.org/10.1109/IST50524.2020.9345884)
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FIST50524.2020.9345884-green)](https://doi.org/10.1109/IST50524.2020.9345884)
+[![GitHub stars](https://img.shields.io/github/stars/mohsengh/SLSP?style=social)](https://github.com/mohsengh/SLSP)
+
+Official implementation of:
+
+**Similarity Preserving Unsupervised Feature Selection based on Sparse Learning**
+
+Published in:
+
+2020 10th International Symposium on Telecommunications (IST 2020), IEEE
+
+Authors:
+
+* Mohsen Ghassemi Parsa
+* Hadi Zare
+* Mehdi Ghatee
+* Sasan H. Alizadeh
+
+---
+
+# Keywords
+
+Unsupervised Feature Selection, Similarity Preserving Learning, Sparse Learning, Feature Selection, Clustering, Spectral Analysis, Representation Learning, Machine Learning, Data Mining, Dimensionality Reduction
+
+---
+
+# If You Use This Code, Please Cite the Paper
+
+```bibtex
+@inproceedings{Parsa2020SLSP,
+  author={Parsa, Mohsen Ghassemi and Zare, Hadi and Ghatee, Mehdi and Alizadeh, Sasan H.},
+  title={Similarity Preserving Unsupervised Feature Selection based on Sparse Learning},
+  booktitle={2020 10th International Symposium on Telecommunications (IST)},
+  year={2020},
+  pages={50--55},
+  doi={10.1109/IST50524.2020.9345884}
+}
+```
+
+DOI:
+
+https://doi.org/10.1109/IST50524.2020.9345884
+
+⭐ Please star this repository and cite the paper if it contributes to your research.
+
+---
+
+# Overview
+
+SLSP is an unsupervised feature selection algorithm that simultaneously:
+
+* Preserves global similarity
+* Preserves local similarity
+* Learns discriminative cluster structures
+* Selects informative features through sparse learning
+
+Unlike many earlier methods that focus only on local similarity or clustering, SLSP integrates all these components into a unified optimization framework.
+
+---
+
+# Main Contributions
+
+✔ Joint learning of clustering and feature selection
+
+✔ Global similarity preservation via symmetric NMF
+
+✔ Local similarity preservation via graph Laplacian
+
+✔ Sparse feature selection using ℓ₂,₁ regularization
+
+✔ Convergence-guaranteed optimization
+
+✔ Strong performance on biological, image, voice, and artificial datasets
+
+---
+
+# Method
+
+SLSP jointly optimizes:
+
+* Global Similarity Matrix
+* Cluster Assignment Matrix
+* Sparse Transformation Matrix
+
+The objective function integrates:
+
+1. Symmetric Nonnegative Matrix Factorization
+2. Spectral Analysis
+3. Sparse Regression
+4. Similarity Preservation
+
+Features are ranked according to:
+
+||wi||₂
+
+where rows with larger norms correspond to more informative features.
+
+---
+
+# Why SLSP?
+
+Many existing methods use only one or two of the following:
+
+| Method | Local Similarity | Global Similarity | Clustering | Joint Learning |
+| ------ | ---------------- | ----------------- | ---------- | -------------- |
+| MCFS   | ✓                | ✗                 | ✗          | ✗              |
+| UDFS   | ✓                | ✗                 | ✗          | ✓              |
+| NDFS   | ✓                | ✗                 | ✓          | ✓              |
+| SPFS   | ✗                | ✓                 | ✗          | ✓              |
+| GLSPFS | ✓                | ✓                 | ✗          | ✓              |
+| SLSP   | ✓                | ✓                 | ✓          | ✓              |
+
+SLSP is designed to combine all four characteristics in a single framework.
+
+---
+
+# Experimental Results
+
+SLSP was evaluated on:
+
+* ALLAML
+* Colon
+* GLIOMA
+* Lung
+* BA
+* COIL20
+* ORL
+* Yale
+* Isolet
+* Madelon
+
+Domains:
+
+* Bioinformatics
+* Image Analysis
+* Speech Recognition
+* Artificial Data
+
+---
+
+# Performance Highlights
+
+Compared with:
+
+* LS
+* MCFS
+* UDFS
+* NDFS
+* GLSPFS
+* SPUFS
+
+Key observations:
+
+✔ Best Accuracy on six datasets
+
+✔ Top-three performance across almost all datasets
+
+✔ Significant NMI improvements on ALLAML and Colon datasets
+
+✔ Robust performance across different domains
+
+# Applications
+
+SLSP is suitable for:
+
+* High-dimensional data analysis
+* Bioinformatics
+* Gene expression analysis
+* Computer vision
+* Pattern recognition
+* Text mining
+* Clustering preprocessing
+* Representation learning
+
+---
+
+# Citation
+
+```bibtex
+@inproceedings{Parsa2020SLSP,
+  author={Parsa, Mohsen Ghassemi and Zare, Hadi and Ghatee, Mehdi and Alizadeh, Sasan H.},
+  title={Similarity Preserving Unsupervised Feature Selection based on Sparse Learning},
+  booktitle={2020 10th International Symposium on Telecommunications (IST)},
+  year={2020},
+  pages={50--55},
+  doi={10.1109/IST50524.2020.9345884}
+}
+```
+---
+
+# Contact
+
+Mohsen Ghassemi Parsa
+
+Email: [mgparsa@ut.ac.ir](mailto:mgparsa@ut.ac.ir)
+
+GitHub: https://github.com/mohsengh
+
+For questions, bug reports, and collaborations, please open an issue.
+
+---
+
+# Support the Project
+
+⭐ Star the repository
+
+📄 Cite the paper
+
+🔄 Share the repository
+
+These actions help increase the visibility and impact of the research.
